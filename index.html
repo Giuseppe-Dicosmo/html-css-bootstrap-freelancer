@@ -23,18 +23,20 @@
             <div class="col-auto">about</div>
             <div class="col-auto">contact</div>
           </div>
-      </div>
+        </div>
       </div>
     </nav>
   </header>
 
   <main>
+    <!-- profile -->
     <div class="container-fluid bt_bg-1abc9c">
       <section class="container py-5">
         <div class="row d-flex flex-column align-items-center">
           <div class="col-3 rounded-circle d-flex justify-content-center">
             <img src="https://picsum.photos/200/250" alt="">
           </div>
+
           <div class="col-5 text-white text-uppercase text-center d-flex flex-column">
             <h1>start bootstrap</h1>
             <p>graphic artist - web designer - illustrator</p>
@@ -43,11 +45,12 @@
       </section>
     </div>
 
+    <!-- card -->
     <div class="container-fluid bg-white">
-      <section class="container col-9 py-5 text-black text-uppercase text-center">
+      <section class="container col-10 py-5 text-black text-uppercase text-center">
         <h1>portfolio</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col ">
+          <div class="col">
             <div class="card py-3 bt_bg-ba4b63">
               <div class="col-3 rounded mx-auto d-block rounded-circle debug_border">
                 <img src="https://picsum.photos/100/100"  alt="">
@@ -98,22 +101,109 @@
       </section>
     </div>
 
+    <!-- about -->
     <div class="container-fluid bt_bg-1abc9c">
-      <section class="container col-8 py-5">
-        <div class="text-white row text-center">
-          <div class="debug_border">
+      <section class="container col-8 py-5 ">
+        <div class="row text-white d-flex justify-content-center">
+          <div class="text-center text-uppercase">
             <h1>about</h1>
           </div>
-          <div class="container">
-            <div class="row">
-              <h1>start bootstrap</h1>
-              <p>graphic artist - web designer - illustrator</p>
+
+          <div class="py-4">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card bt_bg-1abc9c">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dicta nesciunt rem explicabo natus modi velit hic beatae facilis! Ab ratione saepe minus veniam molestiae amet optio cum quasi nostrum?
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card bt_bg-1abc9c">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dicta nesciunt rem explicabo natus modi velit hic beatae facilis! Ab ratione saepe minus veniam molestiae amet optio cum quasi nostrum?
+                </div>
+              </div>
             </div>
           </div>
+
+          <button type="button" class="col-auto btn btn-outline-light">Download</button>
         </div>
       </section>
     </div>
+
+    <!-- contact -->
+    <div class="container-fluid bg-white">
+      <section class="container col-8 py-5">
+        <div class="row">
+          <div class="text-center text-uppercase">
+            <h1>contact me</h1>
+          </div>
+        </div>
+
+        <form class="row text-capitalize">
+          <div class="py-2 px-0 border-bottom border-secondary">
+            <label for="fname">name</label>
+            <input type="text" class="border border-white" id="fname" name="fname">
+          </div>
+
+          <div class=" py-2 px-0 border-bottom border-secondary">
+            <label for="fname">email address</label>
+            <input type="email" class="border border-white" id="fname" name="fname">
+          </div>
+
+          <div class=" py-2 px-0 border-bottom border-secondary">
+            <label for="fname">phone number</label>
+            <input type="tel" class="border border-white" id="fname" name="fname">
+          </div>
+
+          <div class="py-2 px-0 border-bottom border-secondary">
+            <label class="d-flex align-items-start" for="fname">message</label>
+            <textarea name="" id="" class="border border-white" cols="110" rows="5"></textarea>
+          </div>
+
+          <input class="mt-3 col-auto text-white btn bt_bg-1abc9c" type="button" value="Send">
+        </form>
+      </section>
+    </div>
   </main>
+
+  <footer>
+    <div class="container-fluid bt_bg-3a546d">
+      <div class="container col-12 py-5 text-white text-center">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card bt_bg-3a546d">
+              <h5 class="text-uppercase">location</h5>
+              <p>2215 John Daniel Clark, MO 54243</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card bt_bg-3a546d">
+              <h5 class="text-uppercase">around the web</h5>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque expedita aperiam perspiciatis possimus debitis voluptate officiis </p>
+
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card bt_bg-3a546d">
+              <h5 class="text-uppercase">about freelancer</h5>
+              <p>Freelance is a free to use, open sourse Bootstrap theme created by <span>Start Bootstrap</span>.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container-fluid bt_bg-293848">
+      <div class="row py-4 d-flex justify-content-center">
+        <div class="col-auto text-capitalize text-white">
+          <p class="fs-6">copyright &#169; your website 2019</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
