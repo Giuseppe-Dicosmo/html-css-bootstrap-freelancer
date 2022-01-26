@@ -44,6 +44,10 @@
   left: 0;
 }
 
+img{
+  height: 300px;
+}
+
 .bt_bg-293848{
   background-color: #293848;
 }
@@ -90,6 +94,11 @@
 
 span{
   color: #1abc9c;
+}
+
+.bt_description{
+  column-count: 2;
+  column-gap: 4em;
 }
 
 .debug_border{
