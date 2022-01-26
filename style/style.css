@@ -1,3 +1,49 @@
+.bt_icons-line-white::before{
+  content: "";
+  height: 3px;
+  width: 100%;
+  margin-right: 10px;
+  display: inline-block;
+  background-color: white;
+}
+
+.bt_icons-line-white::after{
+  content: "";
+  height: 3px;
+  width: 100%;
+  margin-left: 10px;
+  display: inline-block;
+  background-color: white;
+}
+
+.bt_icons-line-black::before{
+  content: "";
+  height: 3px;
+  width: 100%;
+  margin-right: 10px;
+  display: inline-block;
+  background-color: black;
+}
+
+.bt_icons-line-black::after{
+  content: "";
+  height: 3px;
+  width: 100%;
+  margin-left: 10px;
+  display: inline-block;
+  background-color: black;
+}
+
+.bt_hover-card:hover .bt_hover{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .bt_bg-293848{
   background-color: #293848;
 }
@@ -9,26 +55,32 @@
 
 .bt_bg-ba4b63{
   background-color: #ba4b63;
+  border: transparent;
 }
 
 .bt_bg-1ea4b6{
   background-color: #1ea4b6;
+  border: transparent;
 }
 
 .bt_bg-140f0f{
   background-color: #140f0f;
+  border: transparent;
 }
 
 .bt_bg-1c83c1{
   background-color: #1c83c1;
+  border: transparent;
 }
 
 .bt_bg-0e38b5{
   background-color: #0e38b5;
+  border: transparent;
 }
 
 .bt_bg-ccb2a3{
   background-color: #ccb2a3;
+  border: transparent;
 }
 
 .bt_bg-3a546d{
